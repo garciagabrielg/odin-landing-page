@@ -1,3 +1,4 @@
+/*General Settings*/
 body{
     margin: 0;
     padding: 0;
@@ -15,6 +16,7 @@ body{
     margin: 0 40dvh;
 }
 
+/*Header Adjustments*/
 .header-container {
     display: flex;
     align-items: center;
@@ -59,7 +61,8 @@ ul{
     margin: 0%;
 }
 
-.section-1-container{
+/*Section 1 Adjustments*/
+.section-1 .container{
     display: flex;
     align-items: center;
     gap: 80px;
@@ -88,13 +91,19 @@ button {
     border-radius: 8px;
 }
 
-.section-2-container{
+/*Section 2 Settings*/
+.section-2 .container{
     display: flex;
     align-items: center;
     gap: 52px;
 }
 
-.section-2-title{
+.section-2 {
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-2 .title{
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
@@ -118,7 +127,3 @@ button {
     font-size: 18px;
 }
 
-.section-2 {
-    flex-direction: column;
-    align-items: center;
-}
