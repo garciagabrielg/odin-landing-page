@@ -159,6 +159,47 @@ button {
     font-size: 24px;
     align-self: flex-end;
 }
+/*Section 4 Settings*/
+.section-4 .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    gap: 52px;
+    margin-top: 15dvh;
+    margin-bottom: 15dvh;
+    padding: 18px;
+    flex: 1 1 30%;
+    border-radius: 15px;
+
+}
+
+.call-to-action{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+.call-to-action .main{
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.section-4 button{
+    border-style: solid;
+    border-color: #E5E7EB;
+}
+
+.section-4 .button {
+    margin-right: 5%;
+    margin-left: 5%;
+
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
 
 /*Footer Settings*/
 footer {
